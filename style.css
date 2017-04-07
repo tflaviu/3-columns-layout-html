@@ -1,32 +1,45 @@
+html, body {
+    height: 100%;
+    background-image: url("http://www.planwallpaper.com/static/images/energy-efficiency-background.jpg");
+    background-size: cover;
+}
+
 .header {
-    background-color: aquamarine;
+    /*background-color: aquamarine;*/
 }
 
 .content-wrapper {
-    height: 100px;
+    height: 100%;
 }
 
 .content-wrapper .sidebar-left {
-    background-color: coral;
+    /*background-color: coral;*/
     float: left;
     height: 100%;
+    width: 5%;
 }
 
 .content-wrapper .content-main {
-    background-color: mediumvioletred;
+    /*background-color: mediumvioletred;*/
     float: left;
     height: 100%;
-
+    width: 80%;
 }
 
 .content-wrapper .sidebar-right {
-    background-color: crimson;
+    /*background-color: crimson;*/
     float: right;
     height: 100%;
+    width: 15%;
 
 }
 
 .footer {
-    background-color: lightsalmon;
+    /*background-color: lightsalmon;*/
     clear: both;
+}
+
+img {
+    width: 100px;
+    heigth: 80px;
 }
